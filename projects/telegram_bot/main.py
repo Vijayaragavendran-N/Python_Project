@@ -45,7 +45,8 @@ def coin(update, context):
 
 def main():
     TOKEN = "1914536904:AAF4ZnqNvyg1pk-1pCPzTqhDYggAyf-1CF8"
-
+    AWS_ACCESS= 'AKIA4MTWI4VXGZHLGUE61'
+    AWS_SECRET= 'jbToBJzML4imOAZjXn0ZP2F/XdibfprKa4Fqt6kq2'
     updater = Updater(TOKEN, use_context=True)
 
     dp = updater.dispatcher
